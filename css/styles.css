@@ -1,0 +1,26 @@
+body {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+header {
+    display: flex;
+    height: 750px;
+}
+
+.header-left {
+    background-color: rgba(82, 128, 178, 1);
+    padding: 20px;
+    font-family: Helvetica;
+    color: white;
+}
+
+.my-name {
+    font-size: 50px;
+}
+
+.header-right img {
+    height: 750px;
+}

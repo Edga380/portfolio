@@ -9,8 +9,8 @@
 <body>
     <header>
         <div class="header-left">
-            <div class="my-name">Edgaras Aleliunas</div>
-            <p>Hello, I'm Edgaras. I have been living in London for almost a decade and have been working as a chef in a fusion
+            <div class="my-name">Hello, my name is Edgaras Aleliunas</div>
+            <p>I have been living in London for almost a decade and have been working as a chef in a fusion
             asian restaurant for the past 8 years.</p>
             <p>From a young age I have always been interested in making things, technology and playing computer games.
             Fascinated by web development I taught myself how to create websites in my spare time.</p>
@@ -26,28 +26,116 @@
     </header>
     <div id="navigation">
         <ul class="optionsNav">
-            <li><a href="">Projects</a></li>
-            <li><a href="">Gallery</a></li>
+            <li onclick="scrollToElement('projects')"><a>Projects</a></li>
+            <li onclick="scrollToElement('gallery')"><a>Gallery</a></li>
+            <li onclick="scrollToElement('contacts')"><a>Contacts</a></li>
         </ul>
     </div>
     <div id="projects">
         <a class="sectionTittle">Projects</a>
     </div>
         <ul class="projectsNav">
-            <li><a href="">Project</a></li>
-            <li><a href="">Project</a></li>
-            <li><a href="">Project</a></li>
-            <li><a href="">Project</a></li>
-            <li><a href="">Project</a></li>
-            <li><a href="">Project</a></li>
+            <li id="projectButton01"><a>Strategy game</a></li>
+            <li id="projectButton02"><a>Bubble space wars</a></li>
+            <li id="projectButton03"><a>Labyrinth2d</a></li>
+            <li id="projectButton04"><a>SKGames website</a></li>
+            <li id="projectButton05"><a>Gallery</a></li>
+            <li id="projectButton06"><a>Movie data</a></li>
         </ul>
     <div id="projectsContainer">
-        some text
+        <!--Strategy game-->
+        <div class="project" id="project01">
+                <img src="./images/galleryTest.png" alt="Card Image">
+            <div class="projectText">
+                <h1>Strategy game</h1>
+                <p>Earth needs more resources to surtain man kind. After finding a planet with a lot of resources they think there 
+                    problems are asolved. While building a new base on the planet and starting harvesting they encounter 
+                    a species that been trying to harvest those resources too. So the fight for resources begins.
+                </p>
+                <img src="./images/icons/email.png" alt="Card Image"><a href="">GithubPages</a><br>
+                <img src="./images/icons/email.png" alt="Card Image"><a href=""><a href="">GithubRep</a>
+            </div>
+        </div>
+        <!--Bubble Space Wars-->
+        <div class="project" id="project02">
+                <img src="./images/galleryTest.png" alt="Card Image">
+            <div class="projectText">
+                <h1>Bubble Space Wars</h1>
+                <p>Bubble Space Wars is an Android mobile game that I created using Unity engine. The aim of the game is that you 
+                need to destroy bubbles that comes in waves and climb up the leaderboard. There are two modes for the player to 
+                choose from. </p>
+               <p>'Normal mode' is where you need to survive 3 waves of bubbles 
+                and at the end of every 4 levels you need to defeat a bubble boss. There are 10 different types of bosses and all 
+                of them have different attacks.</p> 
+                <p>The alternative game mode is called 'Survival mode' where you need to survive as long as possible. You will 
+                    need to survive waves of bubbles and bosses. Your scores are displayed on leaderboards for both game modes 
+                    so you can see how you stack up against other players.</p>
+                <img src="./images/icons/email.png" alt="Card Image"><a href="">GithubPages</a><br>
+                <img src="./images/icons/email.png" alt="Card Image"><a href=""><a href="">GithubRep</a>
+            </div>
+        </div>
+        <!--Labyrinth2d-->
+        <div class="project" id="project03">
+                <img src="./images/galleryTest.png" alt="Card Image">
+            <div class="projectText">
+                <h1>Labyrinth2d</h1>
+                <p>After developing 'Bubble Space Wars' I decided that I wanted to develop a game from scratch to challenge myself 
+                    rather than using Unity. That is how Labyrinth2d came to life. Like the name suggests it is a labyrinth game where 
+                    the goal is to pass 10 unique labyrinths in a total of 5 minutes time limit.
+                </p>
+                <img src="./images/icons/email.png" alt="Card Image"><a href="">GithubPages</a><br>
+                <img src="./images/icons/email.png" alt="Card Image"><a href=""><a href="">GithubRep</a>
+            </div>
+        </div>
+        <!--SKGames website-->
+        <div class="project" id="project04">
+                <img src="./images/galleryTest.png" alt="Card Image">
+            <div class="projectText">
+                <h1>SKGames website</h1>
+                <p>I independently worked on the website design/images/html/css/javascript and was able to learn the proccesses of how to put 
+                    together a website. I developed this website to showcase my games and provide a snapshot of what the games look like.
+                </p>
+                <img src="./images/icons/email.png" alt="Card Image"><a href="">GithubPages</a><br>
+                <img src="./images/icons/email.png" alt="Card Image"><a href=""><a href="">GithubRep</a>
+            </div>
+        </div>
+        <!--Gallery-->
+        <div class="project" id="project05">
+                <img src="./images/galleryTest.png" alt="Card Image">
+            <div class="projectText">
+                <h1>Gallery</h1>
+                <p>Gallery</p>
+                <img src="./images/icons/email.png" alt="Card Image"><a href="">GithubPages</a><br>
+                <img src="./images/icons/email.png" alt="Card Image"><a href=""><a href="">GithubRep</a>
+            </div>
+        </div>
+        <!--Movie data-->
+        <div class="project" id="project06">
+                <img src="./images/galleryTest.png" alt="Card Image">
+            <div class="projectText">
+                <h1>Movie data</h1>
+                <p>Movie data</p>
+                <img src="./images/icons/email.png" alt="Card Image"><a href="">GithubPages</a><br>
+                <img src="./images/icons/email.png" alt="Card Image"><a href=""><a href="">GithubRep</a>
+            </div>
+        </div>
     </div>
     <div id="gallery">
         <a class="sectionTittle">Gallery</a>
     </div>
         <div class="cardsContainer">
+            <div class="card">
+                <img src="./images/galleryTest.png" alt="Card Image">
+                <div class="colorOverlay"><a href="">View more...</a></div>
+            </div>
+            <div class="card">
+                <img src="./images/galleryTest.png" alt="Card Image">
+                <div class="colorOverlay"><a href="">View more...</a></div>
+            </div>
+            <div class="card">
+                <img src="./images/galleryTest.png" alt="Card Image">
+                <div class="colorOverlay"><a href="">View more...</a></div>
+            </div>
             <div class="card">
                 <img src="./images/galleryTest.png" alt="Card Image">
                 <div class="colorOverlay"><a href="">View more...</a></div>
@@ -70,5 +158,7 @@
             <li><a href=""><img src="./images/icons/email.png" alt=""></a></li>
         </ul>
     </footer>
+    <script src="./javascript/slideShow.js"></script>
+    <script src="./javascript/optionNav.js"></script>
 </body>
 </html>

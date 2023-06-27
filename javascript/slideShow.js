@@ -1,5 +1,6 @@
 // Get all project buttons and projects
 const projectButtons = document.querySelectorAll('[id^="projectButton"]');
+const projectIds = document.querySelectorAll('[id^="project0"]');
 const projects = document.querySelectorAll('.project');
 let slideShowTimeOut = 0;
 var num = 0;
@@ -41,11 +42,6 @@ projects.forEach((project) => {
 SlideShow();
 function SlideShow(){
     handleButtonClick(num);
-    if(projects.length - 1 <= num){
-        num = 0;
-    }
-    else{
-        num++;
-    }
+    projects.length - 1 <= num ? num = 0 : num++;
     slideShowTimeOut = setTimeout(SlideShow, 3000);
 };

@@ -66,6 +66,7 @@ header {
 }
 
 #navigation {
+    padding-top: 20px;
     margin-top: 30px;
     width: 80%;
     position: relative;
@@ -76,7 +77,9 @@ header {
 ul.optionsNav {
     list-style-type: none;
     margin: 10px;
-    padding: 0;
+    padding: 0;  
+    display: flex;
+    justify-content: center;
 }
 
 ul.optionsNav li {
@@ -93,7 +96,7 @@ ul.optionsNav li:hover {
 }
 
 #projects {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
     width: 80%;
     position: relative;
@@ -174,7 +177,7 @@ ul.projectsNav li:hover {
 }
 
 #gallery {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
     width: 80%;
     position: relative;
@@ -299,8 +302,8 @@ ul.projectsNav li:hover {
 }
 
 #contacts {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     width: 80%;
     position: relative;
     left: 50%;
@@ -323,6 +326,7 @@ ul.contactsList li a img {
 }
 
 footer {
+    margin-bottom: 80px;
     background-color: rgba(137, 175, 220, 1);
     border-radius: 30px;
     width: 80%;
